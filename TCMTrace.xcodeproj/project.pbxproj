@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F05DC8013B196E200E3F4BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F05DC7F13B196E200E3F4BD /* UIKit.framework */; };
+		9F05DC8213B196E200E3F4BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F05DC8113B196E200E3F4BD /* Foundation.framework */; };
+		9F05DC8413B196E200E3F4BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F05DC8313B196E200E3F4BD /* CoreGraphics.framework */; };
+		9F05DC8A13B196E200E3F4BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F05DC8813B196E200E3F4BD /* InfoPlist.strings */; };
+		9F05DC8D13B196E200E3F4BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F05DC8C13B196E200E3F4BD /* main.m */; };
+		9F05DC9013B196E200E3F4BD /* TCMTraceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F05DC8F13B196E200E3F4BD /* TCMTraceAppDelegate.m */; };
+		9F05DC9313B196E200E3F4BD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F05DC9113B196E200E3F4BD /* MainWindow.xib */; };
+		9F05DC9613B196E200E3F4BD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F05DC9513B196E200E3F4BD /* RootViewController.m */; };
+		9F05DC9913B196E200E3F4BD /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F05DC9713B196E200E3F4BD /* RootViewController.xib */; };
+		9F05DCA113B1972E00E3F4BD /* TCMTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F05DCA013B1972E00E3F4BD /* TCMTrace.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F05DC7B13B196E200E3F4BD /* TCMTrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCMTrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F05DC7F13B196E200E3F4BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F05DC8113B196E200E3F4BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F05DC8313B196E200E3F4BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F05DC8713B196E200E3F4BD /* TCMTrace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCMTrace-Info.plist"; sourceTree = "<group>"; };
+		9F05DC8913B196E200E3F4BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F05DC8B13B196E200E3F4BD /* TCMTrace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCMTrace-Prefix.pch"; sourceTree = "<group>"; };
+		9F05DC8C13B196E200E3F4BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F05DC8E13B196E200E3F4BD /* TCMTraceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCMTraceAppDelegate.h; sourceTree = "<group>"; };
+		9F05DC8F13B196E200E3F4BD /* TCMTraceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCMTraceAppDelegate.m; sourceTree = "<group>"; };
+		9F05DC9213B196E200E3F4BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9F05DC9413B196E200E3F4BD /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9F05DC9513B196E200E3F4BD /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9F05DC9813B196E200E3F4BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		9F05DC9F13B1972E00E3F4BD /* TCMTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMTrace.h; sourceTree = "<group>"; };
+		9F05DCA013B1972E00E3F4BD /* TCMTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMTrace.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F05DC7813B196E200E3F4BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F05DC8013B196E200E3F4BD /* UIKit.framework in Frameworks */,
+				9F05DC8213B196E200E3F4BD /* Foundation.framework in Frameworks */,
+				9F05DC8413B196E200E3F4BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F05DC7013B196E200E3F4BD = {
+			isa = PBXGroup;
+			children = (
+				9F05DC8513B196E200E3F4BD /* TCMTrace */,
+				9F05DC7E13B196E200E3F4BD /* Frameworks */,
+				9F05DC7C13B196E200E3F4BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F05DC7C13B196E200E3F4BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F05DC7B13B196E200E3F4BD /* TCMTrace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F05DC7E13B196E200E3F4BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F05DC7F13B196E200E3F4BD /* UIKit.framework */,
+				9F05DC8113B196E200E3F4BD /* Foundation.framework */,
+				9F05DC8313B196E200E3F4BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F05DC8513B196E200E3F4BD /* TCMTrace */ = {
+			isa = PBXGroup;
+			children = (
+				9F05DC9F13B1972E00E3F4BD /* TCMTrace.h */,
+				9F05DCA013B1972E00E3F4BD /* TCMTrace.m */,
+				9F05DC8E13B196E200E3F4BD /* TCMTraceAppDelegate.h */,
+				9F05DC8F13B196E200E3F4BD /* TCMTraceAppDelegate.m */,
+				9F05DC9113B196E200E3F4BD /* MainWindow.xib */,
+				9F05DC9413B196E200E3F4BD /* RootViewController.h */,
+				9F05DC9513B196E200E3F4BD /* RootViewController.m */,
+				9F05DC9713B196E200E3F4BD /* RootViewController.xib */,
+				9F05DC8613B196E200E3F4BD /* Supporting Files */,
+			);
+			path = TCMTrace;
+			sourceTree = "<group>";
+		};
+		9F05DC8613B196E200E3F4BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F05DC8713B196E200E3F4BD /* TCMTrace-Info.plist */,
+				9F05DC8813B196E200E3F4BD /* InfoPlist.strings */,
+				9F05DC8B13B196E200E3F4BD /* TCMTrace-Prefix.pch */,
+				9F05DC8C13B196E200E3F4BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F05DC7A13B196E200E3F4BD /* TCMTrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F05DC9C13B196E200E3F4BD /* Build configuration list for PBXNativeTarget "TCMTrace" */;
+			buildPhases = (
+				9F05DC7713B196E200E3F4BD /* Sources */,
+				9F05DC7813B196E200E3F4BD /* Frameworks */,
+				9F05DC7913B196E200E3F4BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCMTrace;
+			productName = TCMTrace;
+			productReference = 9F05DC7B13B196E200E3F4BD /* TCMTrace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F05DC7213B196E200E3F4BD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9F05DC7513B196E200E3F4BD /* Build configuration list for PBXProject "TCMTrace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F05DC7013B196E200E3F4BD;
+			productRefGroup = 9F05DC7C13B196E200E3F4BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F05DC7A13B196E200E3F4BD /* TCMTrace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F05DC7913B196E200E3F4BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F05DC8A13B196E200E3F4BD /* InfoPlist.strings in Resources */,
+				9F05DC9313B196E200E3F4BD /* MainWindow.xib in Resources */,
+				9F05DC9913B196E200E3F4BD /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F05DC7713B196E200E3F4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F05DC8D13B196E200E3F4BD /* main.m in Sources */,
+				9F05DC9013B196E200E3F4BD /* TCMTraceAppDelegate.m in Sources */,
+				9F05DC9613B196E200E3F4BD /* RootViewController.m in Sources */,
+				9F05DCA113B1972E00E3F4BD /* TCMTrace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F05DC8813B196E200E3F4BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F05DC8913B196E200E3F4BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F05DC9113B196E200E3F4BD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F05DC9213B196E200E3F4BD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9F05DC9713B196E200E3F4BD /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F05DC9813B196E200E3F4BD /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F05DC9A13B196E200E3F4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F05DC9B13B196E200E3F4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9F05DC9D13B196E200E3F4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCMTrace/TCMTrace-Prefix.pch";
+				INFOPLIST_FILE = "TCMTrace/TCMTrace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F05DC9E13B196E200E3F4BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCMTrace/TCMTrace-Prefix.pch";
+				INFOPLIST_FILE = "TCMTrace/TCMTrace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F05DC7513B196E200E3F4BD /* Build configuration list for PBXProject "TCMTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F05DC9A13B196E200E3F4BD /* Debug */,
+				9F05DC9B13B196E200E3F4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F05DC9C13B196E200E3F4BD /* Build configuration list for PBXNativeTarget "TCMTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F05DC9D13B196E200E3F4BD /* Debug */,
+				9F05DC9E13B196E200E3F4BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F05DC7213B196E200E3F4BD /* Project object */;
+}
